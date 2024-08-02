@@ -8,6 +8,14 @@ class BankAccout {
     this.name = name;
     this.balance = balance;
   }
+  // getter
+  get balanc(): number {
+    return this.balance;
+  }
+  // setter
+  set deposit(amount: number) {
+    this.balance = this.balance + amount;
+  }
   AccountBalance() {
     console.log(`My account balance is ${this.balance}`);
   }
@@ -18,3 +26,4 @@ const myAccount = new BankAccout(123, "Farok", 100);
 console.log(myAccount);
 
 const b = myAccount.AccountBalance();
+myAccount;
