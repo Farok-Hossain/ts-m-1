@@ -1,9 +1,5 @@
-const userInfo: [number, string, string, boolean, undefined, string] = [
-  101,
-  "Ema",
-  "John",
-  true,
-
-  ,
-  "2023",
-];
+interface IPerson {
+  name: string;
+  age: number;
+  profession: string;
+}
