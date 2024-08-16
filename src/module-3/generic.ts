@@ -33,7 +33,7 @@ interface CrushInterface<T> {
   model: T;
 }
 
-const crush11: CrushInterface<boolean> = { name: "Tessa", model: true };
+const crush11: CrushInterface<boolean> = { name: "Tessa", model: false };
 
 const crush12: CrushInterface<string> = {
   name: "Katherin Langford",
